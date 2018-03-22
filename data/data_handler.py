@@ -4,6 +4,7 @@ and make changes to the tables and structure.
 
 '''
 import sqlite3
+from config import confi
 
 def connect_sqlite():
     #secure a connection
