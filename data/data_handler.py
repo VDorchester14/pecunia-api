@@ -23,7 +23,7 @@ def add_table_sqlite(c, table_name, attributes):
                 (attribute_string)'''.format(table_name))
 
 #add some values to the table
-def add_value_to_table_sqlite(c):
+def add_value_to_table_sqlite(c, ):
     #add in my data
     c.execute("INSERT INTO users VALUES ('vail.dorchester@colorado.edu','password')")
     c.commit()
